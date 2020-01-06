@@ -14,7 +14,7 @@ body{
   font-family: "Andale Mono", monospace;
   /* "Times New Roman", Times, serif; */
   /* background-image: url(rsz_1lukasz-szmigiel-jfcviyfycus-unsplash-min.jpg); */
-  background-image: url(rsz_3mike-dennler-t9cktnmi8tq-unsplash.jpg);
+  background-image: url(../img/cover.jpg);
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
@@ -33,6 +33,10 @@ nav {
 }
 
 h1 {
+	font-size: 1.5rem;
+}
+
+.navbar li:first-child {
 	font-size: 1.5rem;
 }
 
@@ -71,7 +75,7 @@ hr {
 
 #particles-js{
   	width: 100%;
-  	height: 80%;
+  	height: 100%;
   	position: absolute;
   	left: 50%;
 	bottom: 0%;
